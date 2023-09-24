@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(message)
                 .setTitle("Error")
-                .setPositiveButton("OK", null); // 可以根据需要添加监听器
+                .setPositiveButton("OK", null);
 
         AlertDialog dialog = builder.create();
         dialog.show();
